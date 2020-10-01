@@ -1,0 +1,64 @@
+Pseudo-codigo
+
+Determinar si un numero es mayor que otro
+		
+asignar un valor a la variable x
+asignar un valor a la variable y
+comparar el valor de x contra el de y
+si x es mayor, mostrar "x es mayor"
+si x no es mayor, mostrar "y es mayor"
+
+
+
+Determinar el mayor de tres numeros
+
+asignar un valor a la variable x
+asignar un valor a la variable y
+asignar un valor a la variable z 
+comparar x con y
+si x>y,comparar z con x, 
+	si x>z mostrar "x es el mayor"
+	si x<z mostrar "z es el mayor"
+si x<y, comparar z con y, 
+	si y>z mostrar "y es el mayor"
+	si y<z mostrar "z es el mayor"
+
+
+Determinar si un numero es o no primo
+iniciar un vector de longitud n para almacenar el valor de los primos 
+checar que el numero sea mayor a 1
+chechar por reglas de divisivilidad
+	para 2, el numero se puede escribir como 2n
+        para 3, la suma de los valores en cada posicion es divisible entre 3; (abcd)=(a*1000+b*100+c*10+d)
+		(a+b+c+d)=numero divisible entre 3 
+	para 4, checar si las ultimas dos posiciones (decenas y unidades) es divisible entre 4, 
+		(abc)=(a*100+b*10+c), entonces se checa (2b+c)= numero divisible entre 4
+	para 5, si el numero termina en 5 o 0
+	para 6, si cumple las reglas para 3 y 2, es divisible entre 6
+	para 7, (abcd)=(a*1000+b*100+c*10+d); (abcd -d)/10+5d, checar si el residuo (abc+5d) es divisible entre 7
+	para 8, checar si las ultimas tres posiciones son divisibles entre 8
+		(abcd)=(a*1000+b*100+c*10+d), se checa si (4b+2c+d)= numero divisible entre 8
+	para 9, de la misma manera que para 3
+		(a+b+c+d)=numero divisible entre 9
+	checar con la serie de primos ya establecida
+	si pasa todas las reglas se añade a la serie de primos 
+		se pueden eliminar las reglas de 9,8,6 y 4; ya que son multiplos de 2 y 3
+
+
+
+Determinar si dos cadenas son palindromas 
+
+Buscar la longitud de la cadena a
+Buscar la longitud de la cadena b
+si la longitud de a = longitud de b
+	comparar el valor de A[0] con el valor de B[n-1]
+	si el valor de ambas entradas es el mimso se continua 
+	continuar avanzando en la cadena A desde 0 hasta n-1, y retroceder en la cadena B desde n-1 hasta 0
+
+
+
+Determinar si "ant" es una subcadena de "se han establecido antecedentes desde el siglo XIX"
+establecer la longitud de "ant"
+checar si dicha longitud cabe en el espacio de longitud n enfrente de la primera entrada
+checar si hay coincidencia entre las entradas
+pasar a la siguiente entrada para volver a empezar el proceso. 
