@@ -99,15 +99,15 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 
 |x|valores|resultado|
 |-|-|-|
-|4|[1, 2, 4, 7, 9]|**Tu respuesta aquí**|
-|9|[1, 3, 5, 6, 7]|**Tu respuesta aquí**|
-|3|[5, 6, 7, 8, 9, 10]|**Tu respuesta aquí**|
+|4|[1, 2, 4, 7, 9]|**[false,false,true,false,false]**|
+|9|[1, 3, 5, 6, 7]|**[false,false,false,false,false]**|
+|3|[5, 6, 7, 8, 9, 10]|**[false,false,false,false,false,false]**|
 
 
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Tu respuesta aquí**
+**Θ[n], *O*[n], Ω[1]**
 
 ### Algoritmo 3
 ```
