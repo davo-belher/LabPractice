@@ -20,7 +20,7 @@ Existen diferentes notaciones para indicar la complejidad de un algoritmo en div
 #### Complejidad de cota superior asintótica (Big O Notation)
 Para determinar el máximo de operaciones a realizar por un algoritmo se utiliza una notación conocida como de cota superior (también llamada de *orden superior*) y se denota con la letra *O*. La función de esta notación es indicar qué función acota o delimita por la parte superior el número de operaciones realizadas por un algoritmo. En otras palabras, es una forma de indicar, con una función matemática, cuántas operaciones se requieren como máximo para resolver un problema con un cierto algoritmo. Esta función va a depender del número de elementos sobre el que se va a llevar a cabo el algoritmo.
 
-Por ejemplo, si quisieramos calcular la suma de todos los elementos de un arreglo es necesario pasar por cada uno de los elementos y sumarlo a una variable con la suma total. En este caso es necesario pasar una única vez por cada uno de los elementos, de forma que si el arreglo tiene 100 elementos, necesitaremos 100 operaciones, si cuenta con 1000 elementos, serán necesarias 1000 operaciones, 10 elementos requerirán 10 operaciones y así sucesivamente; rápidamente se puede identificar que el número de operaciones ncesarias es igual al número de elementos, en otras palabras, tiene un comportamiento acotado por una función lineal. Esto de denotaría como *O(n)*. Que en la figura superior correspondería con la línea verde.
+Por ejemplo, si quisieramos calcular la suma de todos los elementos de un arreglo es necesario pasar por cada uno de los elementos y sumarlo a una variable con la suma total. En este caso es necesario pasar una única vez por cada uno de los elementos, de forma que si el arreglo tiene 100 elementos, necesitaremos 100 operaciones, si cuenta con 1000 elementos, serán necesarias 1000 operaciones, 10 elementos requerirán 10 operaciones y así sucesivamente; rápidamente se puede identificar que el número de operaciones ncesarias es igual al número de elementos, en otras palabras, tiene un comportamiento acotado por una función lineal. Esto se denotaría como *O(n)*. Que en la figura superior correspondería con la línea verde.
 
 #### Complejidad de cota inferior asintótica (Big Ω Notation)
 Así como se determina la función que acota de forma superior al algoritmo, generalmente también se busca la función que acota por la parte inferior. A esta notación se conoce como cota inferior u *orden inferior* y se denota con la letra griega Ω.
@@ -78,7 +78,7 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Tu respuesta aquí**
+**Θ[n]**
 
 ### Algoritmo 2
 ```
