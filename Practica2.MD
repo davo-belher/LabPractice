@@ -138,4 +138,4 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-** *O*[n^2], Ω[n]**
+***O*[n^2], Ω[n]**
