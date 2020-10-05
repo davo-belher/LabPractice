@@ -132,10 +132,10 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 |-|-|-|
 |[1, 2, 3]|[1, 2, 3, 4, 5]|**[true,true,true]**|
 |[2, 4]|[7, 5, 2, 8, 3]|**[true,false]**|
-|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**[true,true,,true]**|
+|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**[true,true,true]**|
 
 
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Θ[n], *O*[n^2], Ω[n]**
+** *O*[n^2], Ω[n]**
